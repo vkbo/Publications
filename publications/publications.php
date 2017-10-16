@@ -1,6 +1,17 @@
 <?php
 
     $pubEntries = array(
+        "berglyd_olsen:2017-1" => array(
+            "Type"     => "Article",
+            "Date"     => "2017-10-16",
+            "Title"    => "Emittance preservation of an electron beam in a loaded quasi-linear plasma wakefield",
+            "Journal"  => "Preprint: arXiv.org",
+            "Authors"  => "Veronica K. Berglyd Olsen, Erik Adli (University of Oslo, Oslo, Norway),
+                           Patric Muggli (Max Planck Institute for Physics, Munich, Germany and CERN, Geneva, Switzerland).",
+            "URL"      => "https://arxiv.org/abs/1710.04858",
+            "PrePrint" => "https://arxiv.org/pdf/1710.04858.pdf",
+            "Contrib"  => 1,
+        ),
         "berglyd_olsen:2017" => array(
             "Type"     => "Proceedings",
             "Date"     => "2017-06-19",
