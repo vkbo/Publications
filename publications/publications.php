@@ -1,7 +1,7 @@
 <?php
-
+    
     $pubEntries = array(
-        "berglyd_olsen:2017-1" => array(
+        "berglyd_olsen:2017a" => array(
             "Type"     => "Article",
             "Date"     => "2017-10-16",
             "Title"    => "Emittance preservation of an electron beam in a loaded quasi-linear plasma wakefield",
@@ -11,6 +11,31 @@
             "URL"      => "https://arxiv.org/abs/1710.04858",
             "PrePrint" => "https://arxiv.org/pdf/1710.04858.pdf",
             "Contrib"  => 1,
+        ),
+        "muggli:2017" => array(
+            "Type"     => "Article",
+            "Date"     => "2017-10-17",
+            "Title"    => "AWAKE readiness for the study of the seeded self-modulation of a 400 GeV proton bunch",
+            "Journal"  => "Plasma Physics and Controlled Fusion",
+            "Authors"  => "P. Muggli, E. Adli, R. Apsimon, F. Asmus, R. Baartman, A.-M. Bachmann, M. Barros Marin,
+                           F. Batsch, J. Bauche, V. K. Berglyd Olsen, M. Bernardini, B. Biskup, A. Boccardi, T. Bogey,
+                           T. Bohl, C. Bracco, F. Braunmuller, S. Burger, G. Burt, S. Bustamante, B. Buttenschõn,
+                           A. Butterworth, A. Caldwell, M. Cascella, E. Chevallay, M. Chung, H. Damerau, L. Deacon,
+                           A. Dexter, P. Dirksen, S. Doebert, J. Farmer, V. Fedosseev, T. Feniet, G. Fior, R. Fiorito,
+                           R. Fonseca, F. Friebel, P. Gander, S. Gessner, I. Gorgisyan, A. A. Gorn, O. Grulke,
+                           E. Gschwendtner, A. Guerrero, J. Hansen, C. Hessler, W. Hofle, J. Holloway, M. H¨uther,
+                           M. Ibison, M.R. Islam, L. Jensen, S. Jolly, M. Kasim, F. Keeble, S.-Y. Kim, F. Kraus,
+                           A. Lasheen, T. Lefevre, G. LeGodec, Y. Li, S. Liu, N. Lopes, K. V. Lotov, M. Martyanov,
+                           S. Mazzoni, D. Medina Godoy, O. Mete, V. A. Minakov, R. Mompo, J. Moody, M. T. Moreira,
+                           J. Mitchell, C. Mutin, P. Norreys, E. Oz, E. Ozturk, W. Pauw, A. Pardons, C. Pasquino,
+                           K. Pepitone, A. Petrenko, S. Pitmann, G. Plyushchev, A. Pukhov, K. Rieger, H. Ruhl,
+                           J. Schmidt, I. A. Shalimova, E. Shaposhnikova, P. Sherwood, L. Silva, A. P. Sosedkin,
+                           R. I. Spitsyn, K. Szczurek, J. Thomas, P. V. Tuev, M. Turner, V. Verzilov, J. Vieira,
+                           H. Vincke, C. P. Welsch, B. Williamson, M. Wing, G. Xia, H. Zhang.",
+            "URL"      => "http://iopscience.iop.org/article/10.1088/1361-6587/aa941c",
+            "PDF"      => "http://iopscience.iop.org/article/10.1088/1361-6587/aa941c/pdf",
+            "DOI"      => "10.1088/1361-6587/aa941c",
+            "Contrib"  => 3,
         ),
         "berglyd_olsen:2017" => array(
             "Type"     => "Proceedings",
@@ -25,7 +50,7 @@
             "DOI"      => "10.18429/JACoW-IPAC2017-TUPIK061",
             "Contrib"  => 1,
         ),
-        "berglyd_olsen:2016" => array(
+        "berglyd_olsen:2016a" => array(
             "Type"     => "Proceedings",
             "Date"     => "2016-10-11",
             "Title"    => "Loading of Wakefields in a Plasma Accelerator Section Driven by a Self-Modulated Proton Beam",
@@ -33,9 +58,10 @@
             "Authors"  => "V. K. Berglyd Olsen, E. Adli (University of Oslo, Oslo, Norway),
                            P. Muggli (Max Planck Institute for Physics, Munich, Germany and CERN, Geneva, Switzerland),
                            J. M. Vieira (Instituto Superior Technico, Lisbon, Portugal)",
-            "URL"      => "http://vrws.de/napac2016/html/tua4.htm",
-            "PDF"      => "http://vrws.de/napac2016/papers/tua4co03.pdf",
-            "Slides"   => "http://vrws.de/napac2016/talks/tua4co03_talk.pdf",
+            "URL"      => "http://accelconf.web.cern.ch/AccelConf/napac2016/doi/JACoW-NAPAC2016-TUA4CO03.html",
+            "PDF"      => "http://accelconf.web.cern.ch/AccelConf/napac2016/papers/tua4co03.pdf",
+            "Slides"   => "http://accelconf.web.cern.ch/AccelConf/napac2016/talks/tua4co03_talk.pdf",
+            "DOI"      => "10.18429/JACoW-NAPAC2016-TUA4CO03",
             "Contrib"  => 1,
         ),
         "gschwendtner:2016" => array(
@@ -107,7 +133,7 @@
             "DOI"      => "10.1016/j.nima.2016.02.075",
             "Contrib"  => 2,
         ),
-        "muggli:2015" => array(
+        "muggli:2015a" => array(
             "Type"     => "Proceedings",
             "Date"     => "2015-05-08",
             "Title"    => "Measuring the Self-modulation Instability of Electron and Positron Bunches in Plasmas",
@@ -148,18 +174,18 @@
             "PDF"      => "http://jacow.org/IPAC2014/papers/tupme050.pdf",
             "Contrib"  => 3,
         ),
-        "muggli:2014-1" => array(
-            "Type"     => "Proceedings",
-            "Date"     => "2014-05-25",
-            "Title"    => "Self-modulation of ultra-relativistic SLAC electron and positron bunches",
-            "Journal"  => "2014 IEEE 41st International Conference on Plasma Sciences, Washington DC, USA",
-            "Authors"  => "P. Muggli, O. Reimann, J. Vieira, N. Lopes, L.D. Amorim, L. Silva, S. Gessner, M.J. Hogan,
-                           S. Li, M. Litos, N. Vafaei-Najafabadi, C. Joshi, W. Mori, K. Marsh, E. Adli, V.K.B. Olsen,
-                           Y. Fang",
-            "URL"      => "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7012243",
-            "DOI"      => "10.1109/PLASMA.2014.7012243",
-            "Contrib"  => 3,
-        ),
+        // "muggli:2014-1" => array(
+        //     "Type"     => "Proceedings",
+        //     "Date"     => "2014-05-25",
+        //     "Title"    => "Self-modulation of ultra-relativistic SLAC electron and positron bunches",
+        //     "Journal"  => "2014 IEEE 41st International Conference on Plasma Sciences, Washington DC, USA",
+        //     "Authors"  => "P. Muggli, O. Reimann, J. Vieira, N. Lopes, L.D. Amorim, L. Silva, S. Gessner, M.J. Hogan,
+        //                    S. Li, M. Litos, N. Vafaei-Najafabadi, C. Joshi, W. Mori, K. Marsh, E. Adli, V.K.B. Olsen,
+        //                    Y. Fang",
+        //     "URL"      => "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7012243",
+        //     "DOI"      => "10.1109/PLASMA.2014.7012243",
+        //     "Contrib"  => 3,
+        // ),
         "berglyd_olsen:2012" => array(
             "Type"     => "Thesis",
             "Date"     => "2012-12-03",
