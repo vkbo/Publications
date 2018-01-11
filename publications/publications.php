@@ -1,11 +1,11 @@
 <?php
     
     $pubEntries = array(
-        "berglyd_olsen:2017a" => array(
+        "berglyd_olsen:2018" => array(
             "Type"     => "Article",
-            "Date"     => "2017-10-16",
-            "Title"    => "Emittance preservation of an electron beam in a loaded quasi-linear plasma wakefield",
-            "Journal"  => "Preprint: arXiv.org",
+            "Date"     => "2017-12-18",
+            "Title"    => "Emittance preservation of an electron beam in a loaded quasilinear plasma wakefield",
+            "Journal"  => "Accepted for: Physical Review Accelerators and Beams",
             "Authors"  => "Veronica K. Berglyd Olsen, Erik Adli (University of Oslo, Oslo, Norway),
                            Patric Muggli (Max Planck Institute for Physics, Munich, Germany and CERN, Geneva, Switzerland).",
             "URL"      => "https://arxiv.org/abs/1710.04858",
@@ -14,7 +14,7 @@
         ),
         "muggli:2017" => array(
             "Type"     => "Article",
-            "Date"     => "2017-10-17",
+            "Date"     => "2017-11-29",
             "Title"    => "AWAKE readiness for the study of the seeded self-modulation of a 400 GeV proton bunch",
             "Journal"  => "Plasma Physics and Controlled Fusion",
             "Authors"  => "P. Muggli, E. Adli, R. Apsimon, F. Asmus, R. Baartman, A.-M. Bachmann, M. Barros Marin,
