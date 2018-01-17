@@ -48,7 +48,7 @@
                            Stephane Deghaye, Spencer J. Gessner, Edda Gschwendtner (CERN, Geneva, Switzerland),
                            Patric Muggli (Max Planck Institute for Physics, Munich, Germany and CERN, Geneva, Switzerland).",
             "URL"      => "http://accelconf.web.cern.ch/AccelConf/ipac2017/doi/JACoW-IPAC2017-TUPIK061.html",
-            "PDF"      => "http://accelconf.web.cern.ch/AccelConf/ipac2017/papers/tupik061.pdf",
+            "PDF"      => "http://vkbo.net/files/IPAC17-TUPIK061.pdf",
             "DOI"      => "10.18429/JACoW-IPAC2017-TUPIK061",
             "Contrib"  => 1,
         ),
