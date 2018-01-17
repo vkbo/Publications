@@ -46,7 +46,8 @@
             "Journal"  => "Proceedings of IPAC2017, Copenhagen, Denmark",
             "Authors"  => "Veronica K. Berglyd Olsen (University of Oslo, Oslo, Norway), Jozef J. Batkiewicz,
                            Stephane Deghaye, Spencer J. Gessner, Edda Gschwendtner (CERN, Geneva, Switzerland),
-                           Patric Muggli (Max Planck Institute for Physics, Munich, Germany and CERN, Geneva, Switzerland).",
+                           Patric Muggli (Max Planck Institute for Physics, Munich, Germany and CERN, Geneva, Switzerland).<br>
+                           <i><b>Note: The published PDF is broken. The PDF link below links to a working version.</b></i>",
             "URL"      => "http://accelconf.web.cern.ch/AccelConf/ipac2017/doi/JACoW-IPAC2017-TUPIK061.html",
             "PDF"      => "http://vkbo.net/files/IPAC17-TUPIK061.pdf",
             "DOI"      => "10.18429/JACoW-IPAC2017-TUPIK061",
