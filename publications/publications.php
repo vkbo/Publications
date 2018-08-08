@@ -1,6 +1,29 @@
 <?php
     
     $pubEntries = array(
+        // "berglyd_olsen:2018a" => array(
+        //     "Type"     => "Thesis",
+        //     "Date"     => "2018-02-28",
+        //     "Title"    => "Something, Something, Beam Loading",
+        //     "Journal"  => "Dissertation Presented for the Degree of PhD in Physics",
+        //     "Authors"  => "Veronica K. Berglyd Olsen, University of Oslo.
+        //                    Thesis advisors: Erik Adli (University of Oslo, Oslo, Norway),
+        //                    Patric Muggli (Max Planck Institute for Physics, Munich, Germany and CERN, Geneva, Switzerland).",
+        //     "URL"      => "https://www.duo.uio.no/handle/",
+        //     "PDF"      => "https://www.duo.uio.no/bitstream/handle/",
+        //     "Contrib"  => 1,
+        // ),
+        "lindstrom:2018" => array(
+            "Type"     => "Proceedings",
+            "Date"     => "2018-04-29",
+            "Title"    => "Crab Cavity Failures Combined with a Loss of the Beam-Beam Kick in the High Luminosity LHC",
+            "Journal"  => "Proceedings of IPAC2018, Vancouver, BC, Canada",
+            "Authors"  => "B. Lindstrom, H. Burkhardt, V.K.B. Olsen, A. Santamaría García, K.N. Sjobak, M. Valette, D. Wollmann",
+            "URL"      => "http://ipac2018.vrws.de/html/mopmf.htm",
+            "PDF"      => "http://jacow.org/ipac2018/papers/mopmf042.pdf",
+            "DOI"      => "10.18429/JACoW-IPAC2018-MOPMF042",
+            "Contrib"  => 3,
+        ),
         "berglyd_olsen:2018" => array(
             "Type"     => "Article",
             "Date"     => "2018-01-16",
