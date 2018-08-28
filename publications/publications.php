@@ -13,6 +13,17 @@
         //     "PDF"      => "https://www.duo.uio.no/bitstream/handle/",
         //     "Contrib"  => 1,
         // ),
+        "sjobak:2018" => array(
+            "Type"     => "Article",
+            "Date"     => "2018-08-19",
+            "Title"    => "Dynamic Simulations in SixTrack",
+            "Journal"  => "arXiv and CERN",
+            "Authors"  => "K. Sjobak, V.K. Berglyd Olsen, R. De Maria, M. Fitterer, A. Santamaría García, H. Garcia-Morales,
+                           A. Mereghetti, J.F. Wagner, S.J. Wretborn",
+            "URL"      => "http://arxiv.org/abs/1808.06248",
+            "PrePrint" => "http://arxiv.org/abs/1808.06248",
+            "Contrib"  => 2,
+        ),
         "lindstrom:2018" => array(
             "Type"     => "Proceedings",
             "Date"     => "2018-04-29",
