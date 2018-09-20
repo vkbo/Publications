@@ -1,0 +1,163 @@
+! 3D simulation with proton beam, electron beam and plasma electrons
+! PB:   2.34 nC / I =   7 kA / sigma_z = 40 µm / sigma_r = 200 µm  / xi =  278.20 µm
+! EB: 300.0  pC / I = 448 A  / sigma_z = 80 µm / sigma_r = 5.24 µm / xi = 1490.23 µm
+! EB: Matched beta, emittance at 2.0 µm
+! DT: Resolution = 12.4391 c/omega_p
+! Plasma Length: 4 m
+
+&Pipeline
+ Num_Stages = 4
+/
+
+&Simulation_Sys
+ Box_X = 1200,
+ Box_Y = 1200,
+ Box_Z = 2400,
+ INDX  =    9,
+ INDY  =    9,
+ INDZ  =   10,
+/
+
+&Boundary
+ SBoundary = 'conducting' 
+/
+
+! Beams
+
+&Num_Beams 
+ NBeams = 2
+/
+
+! Electron Beam
+
+&Beam
+ Beam_Evolution    = .true.,
+ Min_Beam_Particle = 16777216,
+ NPX               = 256,
+ NPY               = 256,
+ NPZ               = 256,
+ Charge            =  -1.0,
+ Mass              =   1.0,
+ Gamma             = 426.315589,
+ Num_Particle      =  18.7245e8,
+ Init_Routine      =   1,
+ Beam_Profile      = 'test.hdf',
+ Quiet_Start       = .true.,
+ Parameter_Array(1,1:3) = 600.0   , 600.0   , 1490.23,
+ Parameter_Array(2,1:3) =   5.2454,   5.2454,   80.0 ,
+ Parameter_Array(3,1:3) =   2.0   ,   2.0   ,    0.0 ,
+ Parameter_Array(4,1:3) =   0.0   ,   0.0   ,    0.0 ,
+ Parameter_Array(5,1:3) =   0.0   ,   0.0   ,    0.0 ,
+/
+
+! Proton Beam
+
+&Beam
+ Beam_Evolution    = .true.,
+ Min_Beam_Particle = 2097152,
+ NPX               =   128,
+ NPY               =   128,
+ NPZ               =   128,
+ Charge            =     1.0,
+ Mass              =  1836.1526e6,
+ Gamma             =   426.315589,
+ Num_Particle      =     1.4605e10, ! 2.34 nC
+ Init_Routine      =     1,
+ Beam_Profile      = 'test.hdf',
+ Quiet_Start       = .true.,
+ Parameter_Array(1,1:3) = 600.0, 600.0, 278.2,
+ Parameter_Array(2,1:3) = 200.0, 200.0,  40.0,
+ Parameter_Array(3,1:3) =   0.0,   0.0,   0.0,
+ Parameter_Array(4,1:3) =   0.0,   0.0,   0.0,
+ Parameter_Array(5,1:3) =   0.0,   0.0,   0.0,
+/
+
+! Plasma
+
+&Plasma
+ Nspecies       = 1,
+ Plasma_Density = 7.0e14,
+/
+
+&Species
+ NP2          = 1024,
+ Charge       =   -1.0,
+ Mass         =    1.0,
+ Profile_type =    1,
+/
+
+! Time
+
+&Simulation_time
+ TEND = 19920.0,
+ DT   =    12.4391,
+/ 
+
+! Diagnostics
+
+&Potential_Diag
+ DFPSI      =    0,
+ DFPSISLICE =   10,
+ PSIX0      =  600.0,
+ PSIY0      =  600.0,
+ PSIZ0      = 1795.0, ! Centre of bubble
+/
+
+&Current_Diag
+ DFJP      =    0,
+ DFJPSLICE =   10,
+ JPX0      =  600.0,
+ JPY0      =  600.0,
+ JPZ0      = 1490.23, ! Centre of e-beam
+/
+
+&Field_Diag
+ DFE      =   0,
+ DFESLICE =  10,
+ EX0      = 600.0,
+ EY0      = 600.0,
+ EZ0      =   0.0,
+ DFB      =   0,
+ DFBSLICE =  10,
+ BX0      = 600.0,
+ BY0      = 600.0,
+ BZ0      =   0.0,
+/
+
+&Beam_Diag
+ DFQEB      =    0,
+ DFQEBSLICE =   10,
+ QEBX0      =  600.0,
+ QEBY0      =  600.0,
+ QEBZ0      = 1490.23, ! Centre of e-beam
+/
+
+&Plasma_Diag
+ DFQEP      =    0,
+ DFQEPSLICE =   10,
+ QEPX0      =  600.0,
+ QEPY0      =  600.0,
+ QEPZ0      = 1795.0, ! Centre of bubble
+/
+
+&Beam_Phase_Space_Diag
+ DUMP_PHA_BEAM = .true.,
+ DFPHA_BEAM    = 10, 
+ DSAMPLE_BEAM  = 32,
+/
+
+! Restart
+
+&Restart_File
+ READ_RST_FILE = .false.,
+ RST_TIMESTEP  = 200,
+ DUMP_RST_FILE = .true.,
+ DFRST         = 200,
+/
+
+! Debug
+
+&debug
+ MAX_ITER = 1,
+ VERBOSE  = 0,
+/

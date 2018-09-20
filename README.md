@@ -6,6 +6,47 @@ This repository contains a list of papers and proceedings listed on my website [
 
 Following are the simulation input files, scripts and some of the figures used for the listed publications. The files are in the simulations folder with the subfolder corresponding to the heading.
 
+### Physical Review 2018
+
+**Emittance preservation of an electron beam in a loaded quasilinear plasma wakefield**<br>
+*Physical Review Accelerators and Beams (2018)*
+
+Published PDF: [PRAB 21 011301](https://journals.aps.org/prab/pdf/10.1103/PhysRevAccelBeams.21.011301)<br>
+Source Files: [simulations/PRAB2018](simulations/PRAB2018)<br>
+Simulation Software: [QuickPIC](https://plasmasim.physics.ucla.edu/codes/quickpic)<br>
+Analysis Software: MATLAB
+
+* Figure 2
+  * Script: `bl17PlasmaDensityTWake.m`
+  * Input: `PPE-Q13A`, `PPE-Q14B`
+* Figure 3
+  * Script: `bl17BeamLoading.m`
+  * Input: `PPE-Q13A`, `PPE-Q14B`, `PPE-Q14C`
+* Figure 4
+  * Script: `bl17PhaseSpace.m`
+  * Input: `PPE-Q13A`
+* Figure 5, Left
+  * Script: `bl17SliceEmittance.m`
+  * Input: `PPE-Q13C`
+* Figure 5, Right
+  * Script: `bl17SliceEmittanceOffset.m`
+  * Input: `PPE-Q13D`
+* Figure 6
+  * Script: `bl17TPhaseSpaceStillsPos.m`
+  * Input: `PPE-Q14A`
+* Figure 7 and 8
+  * Script: `bl17ParamScan.m`
+  * Input: `PPE-Q07[ABCDE]`, `PPE-Q09[ABCDE]`, `PPE-Q10[ABCDE]`, `PPE-Q11[ABCDE]`, `PPE-Q17[CEGINOPQRSTUVWXY]`, `PPE-Q18[ABCDEFGHIJKLMNOP]`
+* Figure 9
+  * Script: `bl17ParamScanEmitt.m`
+  * Input: `PPE-Q19[ABCDEFGHIJKLMNOPQRSTUVWX]`
+* Figure 10
+  * Script: `bl17ParamScanOffset.m`
+  * Input: `PPE-Q07A`, `PPE-Q20[ABCD]`, `PPE-Q21[ABCDEFGHIJKLMNOP]`
+* Resolution Scans
+  * Input: `PPE-Q22[ABCDEF]`, `PPE-Q23[ABCDEF]`
+
+
 ### Proceedings of NAPAC2016
 
 **Loading of Wakefields in a Plasma Accelerator Section Driven by a Self-Modulated Proton Beam**<br>
