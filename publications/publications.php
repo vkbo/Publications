@@ -1,18 +1,19 @@
 <?php
 
     $pubEntries = array(
-        "sjobak:2019" => array(
+        "sjobak_generalised_2019" => array(
             "Type"     => "Proceedings",
             "Date"     => "2019-05-28",
             "Title"    => "Generalised Scattering Module in SixTrack 5",
             "Journal"  => "Proceedings of IPAC2019, Melbourne, Australia",
             "Authors"  => "K. N. Sjobak, (University of Oslo, Oslo, Norway), V. K. Berglyd Olsen , H. Burkhardt, R. De Maria,
                            (CERN, Geneva, Switzerland)",
-            "URL"      => "https://ipac2019.vrws.de/papers/wepts026.pdf",
+            "URL"      => "http://accelconf.web.cern.ch/ipac2019/doi/JACoW-IPAC2019-WEPTS026.html",
             "PDF"      => "https://ipac2019.vrws.de/papers/wepts026.pdf",
+            "DOI"      => "10.18429/JACoW-IPAC2019-WEPTS026",
             "Contrib"  => 2,
         ),
-        "de_maria:2019" => array(
+        "de_maria_sixtrack_2019" => array(
             "Type"     => "Proceedings",
             "Date"     => "2019-05-28",
             "Title"    => "SixTrack Version 5: Status and New Developments",
@@ -21,11 +22,12 @@
                            G. Iadarola, S. Kostoglou, E.H. Maclean ‡ , E. McIntosh, A. Mereghetti, J. Molson, D. Pellegrini,
                            T. Persson, M. Schwinzerl (CERN, Geneva, Switzerland), B. Dalena, T. Pugnat, (CEA/IRFU, France),
                            I. Zacharov (LPAP EPFL, Lausanne, Switzerland), K.N. Sjobak, (University of Oslo, Oslo, Norway)",
-            "URL"      => "https://ipac2019.vrws.de/papers/wepts043.pdf",
+            "URL"      => "http://accelconf.web.cern.ch/icap2018/doi/JACoW-ICAP2018-TUPAF02.html",
             "PDF"      => "https://ipac2019.vrws.de/papers/wepts043.pdf",
+            "DOI"      => "10.18429/JACoW-IPAC2019-WEPTS043",
             "Contrib"  => 2,
         ),
-        "pugnat:2019" => array(
+        "pugnat_study_2019" => array(
             "Type"     => "Proceedings",
             "Date"     => "2019-05-28",
             "Title"    => "Study of Fringe Fields Effects from Final Focus Quadrupoles on Beam Based Measured Quantities",
@@ -33,11 +35,12 @@
             "Authors"  => "T. Pugnat, B. Dalena, (CEA, Irfu, DACM, Université Paris-Saclay, France), A. Simona, L. Bonaventura,
                            (MOX, Politecnico di Milano, Milano, Italy), R. De Maria, V.K. Berglyd Olsen, (CERN, Geneva,
                            Switzerland)",
-            "URL"      => "https://ipac2019.vrws.de/papers/mopgw012.pdf",
+            "URL"      => "http://accelconf.web.cern.ch/ipac2019/doi/JACoW-IPAC2019-MOPGW012.html",
             "PDF"      => "https://ipac2019.vrws.de/papers/mopgw012.pdf",
+            "DOI"      => "10.18429/JACoW-IPAC2019-MOPGW012",
             "Contrib"  => 3,
         ),
-        "berglyd_olsen:2019" => array(
+        "berglyd_olsen_beam_2019" => array(
             "Type"     => "Thesis",
             "Date"     => "2019-02-25",
             "Title"    => "Beam Loading in a Proton Driven Plasma Wakefield Accelerator",
@@ -50,7 +53,7 @@
             "Slides"   => "http://vkbo.net/files/phd-defence.pdf",
             "Contrib"  => 1,
         ),
-        "turner:2019" => array(
+        "turner_experimental_2019" => array(
             "Type"     => "Article",
             "Date"     => "2019-02-08",
             "Title"    => "Experimental Observation of Plasma Wakefield Growth Driven by the Seeded<br>Self-Modulation of a Proton Bunch",
@@ -74,7 +77,7 @@
             "DOI"      => "10.1103/PhysRevLett.122.054801",
             "Contrib"  => 2,
         ),
-        "adli:2019" => array(
+        "adli_experimental_2019" => array(
             "Type"     => "Article",
             "Date"     => "2019-02-08",
             "Title"    => "Experimental Observation of Proton Bunch Modulation in a Plasma at Varying Plasma Densities",
@@ -98,7 +101,7 @@
             "DOI"      => "10.1103/PhysRevLett.122.054802",
             "Contrib"  => 3,
         ),
-        "de_maria:2018" => array(
+        "de_maria_sixtrack_2018" => array(
             "Type"     => "Proceedings",
             "Date"     => "2018-10-20",
             "Title"    => "SixTrack Project: Status, Runtime Environment, and New Developments",
@@ -113,7 +116,7 @@
             "DOI"      => "10.18429/JACoW-ICAP2018-TUPAF02",
             "Contrib"  => 2,
         ),
-        "adli:2018" => array(
+        "adli_acceleration_2018" => array(
             "Type"     => "Article",
             "Date"     => "2018-08-29",
             "Title"    => "Acceleration of electrons in the plasma wakefield of a proton bunch",
@@ -136,7 +139,7 @@
             "DOI"      => "10.1038/s41586-018-0485-4",
             "Contrib"  => 3,
         ),
-        "sjobak:2018" => array(
+        "sjobak_dynamic_2018" => array(
             "Type"     => "Proceedings",
             "Date"     => "2018-08-19",
             "Title"    => "Dynamic Simulations in SixTrack",
@@ -145,9 +148,10 @@
                            A. Mereghetti, J.F. Wagner, S.J. Wretborn",
             "URL"      => "https://publishing.cern.ch/index.php/CYRCP/issue/view/74",
             "PrePrint" => "http://arxiv.org/abs/1808.06248",
+            "DOI"      => "10.23732/CYRCP-2018-002",
             "Contrib"  => 2,
         ),
-        "lindstrom:2018" => array(
+        "lindstrom_crab_2018" => array(
             "Type"     => "Proceedings",
             "Date"     => "2018-04-29",
             "Title"    => "Crab Cavity Failures Combined with a Loss of the Beam-Beam Kick in the High Luminosity LHC",
@@ -158,7 +162,7 @@
             "DOI"      => "10.18429/JACoW-IPAC2018-MOPMF042",
             "Contrib"  => 3,
         ),
-        "berglyd_olsen:2018" => array(
+        "berglyd_olsen_emittance_2018" => array(
             "Type"     => "Article",
             "Date"     => "2018-01-16",
             "Title"    => "Emittance preservation of an electron beam in a loaded quasilinear plasma wakefield",
@@ -171,7 +175,7 @@
             "PrePrint" => "https://arxiv.org/pdf/1710.04858.pdf",
             "Contrib"  => 1,
         ),
-        "muggli:2017" => array(
+        "muggli_awake_2017" => array(
             "Type"     => "Article",
             "Date"     => "2017-11-29",
             "Title"    => "AWAKE readiness for the study of the seeded self-modulation of a 400 GeV proton bunch",
@@ -196,7 +200,7 @@
             "DOI"      => "10.1088/1361-6587/aa941c",
             "Contrib"  => 3,
         ),
-        "berglyd_olsen:2017" => array(
+        "berglyd_olsen_data_2017" => array(
             "Type"     => "Proceedings",
             "Date"     => "2017-06-19",
             "Title"    => "Data Acquisition and Controls Integration of the AWAKE Experiment at CERN",
@@ -210,7 +214,7 @@
             "DOI"      => "10.18429/JACoW-IPAC2017-TUPIK061",
             "Contrib"  => 1,
         ),
-        "berglyd_olsen:2016a" => array(
+        "berglyd_olsen_loading_2016" => array(
             "Type"     => "Proceedings",
             "Date"     => "2016-10-11",
             "Title"    => "Loading of Wakefields in a Plasma Accelerator Section Driven by a Self-Modulated Proton Beam",
@@ -224,7 +228,7 @@
             "DOI"      => "10.18429/JACoW-NAPAC2016-TUA4CO03",
             "Contrib"  => 1,
         ),
-        "gschwendtner:2016" => array(
+        "gschwendtner_awake_2016" => array(
             "Type"     => "Article",
             "Date"     => "2016-09-01",
             "Title"    => "AWAKE, The Advanced Proton Driven Plasma Wakefield Acceleration Experiment at CERN",
@@ -249,7 +253,7 @@
             "DOI"      => "10.1016/j.nima.2016.02.026",
             "Contrib"  => 3,
         ),
-        "caldwell:2016" => array(
+        "caldwell_path_2016" => array(
             "Type"     => "Article",
             "Date"     => "2016-09-01",
             "Title"    => "Path to AWAKE: Evolution of the concept",
@@ -278,7 +282,7 @@
             "DOI"      => "10.1016/j.nima.2015.12.050",
             "Contrib"  => 3,
         ),
-        "adli:2016" => array(
+        "adli_progress_2016" => array(
             "Type"     => "Article",
             "Date"     => "2016-09-01",
             "Title"    => "Progress of plasma wakefield self-modulation experiments at FACET",
@@ -293,7 +297,7 @@
             "DOI"      => "10.1016/j.nima.2016.02.075",
             "Contrib"  => 2,
         ),
-        "muggli:2015" => array(
+        "muggli_measuring_2015" => array(
             "Type"     => "Proceedings",
             "Date"     => "2015-05-08",
             "Title"    => "Measuring the Self-modulation Instability of Electron and Positron Bunches in Plasmas",
@@ -309,7 +313,7 @@
             "DOI"      => "10.18429/JACoW-IPAC2015-WEPWA008",
             "Contrib"  => 3,
         ),
-        "berglyd_olsen:2015" => array(
+        "berglyd_olsen_loading_2015" => array(
             "Type"     => "Proceedings",
             "Date"     => "2015-05-08",
             "Title"    => "Loading of a plasma-wakefield accelerator section driven by a self-modulated proton bunch",
@@ -322,7 +326,7 @@
             "DOI"      => "10.18429/JACoW-IPAC2015-WEPWA026",
             "Contrib"  => 1,
         ),
-        "muggli:2014" => array(
+        "muggli_electron_2014" => array(
             "Type"     => "Proceedings",
             "Date"     => "2014-06-17",
             "Title"    => "Electron Bunch Self-modulation in Long Plasmas at SLAC FACET",
@@ -337,7 +341,7 @@
             "DOI"      => "10.18429/JACoW-IPAC2014-TUPME050",
             "Contrib"  => 3,
         ),
-        "berglyd_olsen:2012" => array(
+        "berglyd_olsen_full_2012" => array(
             "Type"     => "Thesis",
             "Date"     => "2012-12-03",
             "Title"    => "Full Configuration Interaction Simulation of Quantum Dots",
